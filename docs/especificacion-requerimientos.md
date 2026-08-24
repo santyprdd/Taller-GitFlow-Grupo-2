@@ -89,9 +89,10 @@
 
 #### Entradas
 
-| Entrada                        | Tipo de dato   | Descripción |
-| Código de estudiante           | String         | Identificador único del estudiante que desea cancelar su participación en la tutoría. |
-| Identificador de la tutoría    | String/Integer | Identificador único de la tutoría en la cual el estudiante se encuentra inscrito. |
+| Entrada | Tipo de dato | Descripción |
+|---|---|---|
+| Código de estudiante | String | Identificador único del estudiante que desea cancelar su participación en la tutoría. |
+| Identificador de la tutoría | String/Integer | Identificador único de la tutoría en la cual el estudiante se encuentra inscrito. |
 
 #### Reglas o condiciones
 
@@ -104,12 +105,12 @@
 
 #### Salidas
 
-| Salida                         | Tipo de dato | Descripción |
-
-| Estado de la cancelación       | Boolean      | Indica si la cancelación de la inscripción fue realizada exitosamente. |
-| Cupos disponibles actualizados | Integer      | Cantidad de cupos disponibles en la tutoría después de realizar la cancelación. |
-| Mensaje de confirmación        | String       | Mensaje que informa al estudiante que la cancelación fue realizada correctamente. |
-| Mensaje de error               | String       | Mensaje que informa al estudiante el motivo por el cual no fue posible realizar la cancelación. |
+| Salida | Tipo de dato | Descripción |
+|---|---|---|
+| Estado de la cancelación | Boolean | Indica si la cancelación de la inscripción fue realizada exitosamente. |
+| Cupos disponibles actualizados | Integer | Cantidad de cupos disponibles en la tutoría después de realizar la cancelación. |
+| Mensaje de confirmación | String | Mensaje que informa al estudiante que la cancelación fue realizada correctamente. |
+| Mensaje de error | String | Mensaje que informa al estudiante el motivo por el cual no fue posible realizar la cancelación. |
 
 #### Resultado esperado
 
