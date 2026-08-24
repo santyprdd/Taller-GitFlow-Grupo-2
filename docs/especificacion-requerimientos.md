@@ -180,6 +180,32 @@ El sistema deberá validar las condiciones necesarias para que un estudiante pue
 
 ### Ramas utilizadas
 
+Para el desarrollo del proyecto se utilizaron diferentes ramas en Git con el objetivo de organizar el trabajo de cada integrante y evitar modificaciones directas sobre la rama principal.
+
+- `main`: Rama principal del proyecto, utilizada para almacenar las versiones estables y funcionales del sistema.
+- `develop`: Rama utilizada para integrar y probar los cambios realizados por los integrantes antes de incorporarlos a la rama principal.
+- `feature/registro-tutorias`: Rama destinada al desarrollo del RF-01, correspondiente al registro de tutorías académicas.
+- `feature/consulta-tutorias`: Rama destinada al desarrollo del RF-02, correspondiente a la consulta de tutorías disponibles.
+- `feature/inscripcion-tutorias`: Rama destinada al desarrollo de los RF-03 y RF-04, relacionados con la inscripción y validación de estudiantes.
+- `feature/cancelacion-inscripcion`: Rama destinada al desarrollo del RF-05, correspondiente a la cancelación de inscripciones.
+
 ### Proceso de integración
 
+El desarrollo se realizó utilizando Git como sistema de control de versiones. Cada integrante trabajó en una rama independiente de acuerdo con el requerimiento asignado.
+
+El proceso de integración fue el siguiente:
+
+1. Se creó una rama específica para cada funcionalidad.
+2. Cada integrante realizó sus modificaciones y las registró mediante commits.
+3. Los cambios fueron enviados al repositorio remoto mediante `push`.
+4. Una vez finalizado un requerimiento, se integraron los cambios en la rama `develop`.
+5. Se realizaron pruebas para comprobar que las nuevas funcionalidades funcionaran correctamente y no afectaran las funcionalidades existentes.
+6. Después de verificar el funcionamiento del sistema, los cambios fueron integrados a la rama `main`.
+
 ### Conflictos encontrados
+
+Durante el desarrollo se presentaron conflictos al integrar algunos cambios realizados de manera simultánea sobre archivos relacionados con las funcionalidades de tutorías.
+
+Los conflictos fueron solucionados revisando las modificaciones realizadas por cada integrante y seleccionando o combinando los cambios necesarios. Posteriormente, se realizaron pruebas para verificar que la solución del conflicto no afectara el funcionamiento de los requerimientos implementados.
+
+Una vez solucionados los conflictos y verificadas las funcionalidades, los cambios fueron integrados nuevamente a la rama correspondiente.
